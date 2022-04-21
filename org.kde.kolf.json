@@ -16,9 +16,9 @@
         {
             "name": "libkdegames",
             "buildsystem": "cmake-ninja",
-            "sources": [ 
-                { 
-                    "type": "archive", 
+            "sources": [
+                {
+                    "type": "archive",
                     "url": "https://download.kde.org/stable/release-service/21.12.3/src/libkdegames-21.12.3.tar.xz",
                     "sha256": "4b2f3fb2af0866f7aba1ae679b505faeb7577b0ab50bd619ecb642c48ae0b574",
                     "x-checker-data": {
@@ -27,28 +27,28 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/libkdegames-$version.tar.xz"
                     }
-                } 
+                }
             ]
         },
         {
             "name": "kolf",
             "buildsystem": "cmake-ninja",
             "sources": [
-                { 
-                    "type": "archive", 
-                    "url": "https://download.kde.org/stable/release-service/21.12.3/src/kolf-21.12.3.tar.xz",
-                    "sha256": "efb4f9f23b2db991b07e99cb66945b8362ebf99c9b584bd22726a5269097b001",
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/release-service/22.04.0/src/kolf-22.04.0.tar.xz",
+                    "sha256": "08d9043c5ffe3f8eaddd66ed897e34501874965f56e6858a0cad3f09174f7244",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/kolf-$version.tar.xz"
-                    }  
+                    }
                 },
                 {
                     "type": "patch",
                     "path": "appdata.patch"
-                }                               
+                }
             ]
         }
     ]
