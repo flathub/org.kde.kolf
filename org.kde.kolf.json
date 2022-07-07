@@ -36,8 +36,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.04.2/src/kolf-22.04.2.tar.xz",
-                    "sha256": "4e052edb18762ee58a0e3a1717f755431505b820548d181eaed76bfe8828dddf",
+                    "url": "https://download.kde.org/stable/release-service/22.04.3/src/kolf-22.04.3.tar.xz",
+                    "sha256": "a3ad54702dc16a6867f14b64c1bf5318b1483375ef2722294beeaedc7392b556",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
